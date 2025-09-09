@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    position: relative;
+}
+
+.navbar{
+    background-color: #EAD4D4;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.navbar h2{
+    font-size: 30px;
+    margin: 0 ;  ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6E2515;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.navbar li{
+    margin: 0 10px;
+}
+
+.navbar li a{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #EAD4D4;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.footer-top p {
+    margin: 5px 15px;
+}
+
+.footer-top address {
+    margin: 5px 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-info, .footer-contact {
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-info h3, .footer-contact h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer-info li {
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Segoe UI';
+    font: 24px;
+}
+
+.footer-contact a {
+    margin: 0 15px;
+}
+
+.footer-contact img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-copy {
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    /* margin-bottom: 40px; */
+    margin-top: 50px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;    
+    color: #450000;
+}
+
+
+.main-content button {
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px auto 40px auto;
+    font-family: Arial;
+}
+
+.main-content form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.main-content label{
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+.main-content input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}   
+
+/* style/Contactus.css */
+.error {
+    color: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .top-right img{
+        display: none;
+    }
+    .main1{
+        height: 50vh;
+    }
+    .banner-img{
+        object-fit: cover;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column
+    }
+    .navbar ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column
+    }
+    .navbar h2{
+        display: none;
+    }
+}
